@@ -47,10 +47,11 @@ p {
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(11, auto);
   grid-template-areas:
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
+    'title title title title title title'
+    '. p1 p1 . . .'
+    'p2 p2 . . c1 c1'
+    '. p3 p3 . . .'
+    '. . p4 p4 . .'
     '. . . . . .'
     '. . . . . .'
     '. . . . . .'
