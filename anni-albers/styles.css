@@ -23,6 +23,7 @@ p.callout {
   font-size: 2rem;
   line-height: auto;
   font-style: italic;
+  float: right;
 }
 
 #row1 p,
