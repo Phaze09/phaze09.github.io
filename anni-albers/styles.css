@@ -19,7 +19,7 @@ p {
   width: 50%;
 }
 
-p.callout {
+.callout {
   font-size: 2rem;
   line-height: auto;
   font-style: italic;
