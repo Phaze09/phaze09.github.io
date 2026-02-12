@@ -48,10 +48,10 @@ p {
   grid-template-rows: repeat(11, auto);
   grid-template-areas:
     'title title title title title title'
-    '. p1 p1 . . .'
-    'p2 p2 . . c1 c1'
-    '. p3 p3 . . .'
-    '. . p4 p4 . .'
+    '. p1 p1 p1 . .'
+    'p2 p2 p2 c2 c1 c1'
+    '. p3 p3 p3 . .'
+    '. . p4 p4 p4 .'
     '. . . . . .'
     '. . . . . .'
     '. . . . . .'
@@ -74,3 +74,7 @@ p {
 #secondLayout #para10 { grid-area: p10; }
 #secondLayout #para11 { grid-area: p11; }
 #secondLayout #callout1 { grid-area: c1; }
+
+#secoundLayout p {
+  width: 100%;
+}
