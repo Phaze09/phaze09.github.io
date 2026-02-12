@@ -1,3 +1,5 @@
+/* CSS for index1 */
+
 main {
   width: 80%;
   max-width: 1100px;
@@ -37,3 +39,37 @@ p {
 #row4 p {
   margin-left: calc(100% * 2 / 6);
 }
+
+/* CSS for index2 */
+
+#secondLayout main {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(11, auto);
+  grid-template-areas:
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .';  
+}
+
+#secondLayout #titleRow { grid-area: title; }
+#secondLayout #para1 { grid-area: p1; }
+#secondLayout #para2 { grid-area: p2; }
+#secondLayout #para3 { grid-area: p3; }
+#secondLayout #para4 { grid-area: p4; }
+#secondLayout #para5 { grid-area: p5; }
+#secondLayout #para6 { grid-area: p6; }
+#secondLayout #para7 { grid-area: p7; }
+#secondLayout #para8 { grid-area: p8; }
+#secondLayout #para9 { grid-area: p9; }
+#secondLayout #para10 { grid-area: p10; }
+#secondLayout #para11 { grid-area: p11; }
+#secondLayout #callout1 { grid-area: c1; }
