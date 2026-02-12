@@ -78,3 +78,7 @@ p {
 #secoundLayout p {
   width: 100%;
 }
+
+#secoundLayout #callout1 {
+  padding-left: 0;
+}
