@@ -39,3 +39,19 @@ header {
   width: calc(100vw - 2en);
 }
 
+@media screen and (orientation: landscape) {
+
+  #rhodiePicture {
+    width: 50vw
+  }
+
+  #rhodieTitle {
+    width: 50vw;
+    left: 50vw;
+    background-color: grey;
+  }
+
+  #rhodieTitle h1 {
+    width: 45vw;
+  }
+}
