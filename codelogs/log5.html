@@ -17,6 +17,12 @@
 <h3>&lt;img&gt;</h3>  
 <p>Images can be displayed in HTML using the &lt;img&gt; tag or by using the CSS background-image property. The &lt;img&gt; tag is used directly in HTML to display an image as part of the page content. For example:</p>
 <p>&lt;img src="photo.jpg" alt="A photo of a mountain"&gt;</p>
-
+<p>This method treats the image as a real element in the page structure. Because of this, the image can include alternative text (alt) for accessibility and can be resized with HTML attributes or CSS. It also affects the layout like other elements such as paragraphs or headings.</p>
+<h3>background-image</h3>
+<p>On the other hand, the background-image property is used in CSS to place an image behind an HTML element. For example:</p>
+<p>div {
+  background-image: url("background.jpg");
+}</p>
+<p>This method is mostly used for decorative images rather than content images. Background images do not have alt text and do not appear in the HTML document structure. They are useful for styling sections, banners, or page backgrounds without affecting the layout in the same way an &lt;img&gt; element would.</p>
 </body>
 </html>
