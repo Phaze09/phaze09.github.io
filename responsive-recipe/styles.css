@@ -13,7 +13,7 @@ header{
     grid-template-columns: 2fr 1fr;
     gap:30px;
     padding:40px;
-    align-items:center;
+    align-items:center; /* centers the text vertically with the image */
 }
 
 /* Image */
@@ -24,20 +24,21 @@ header img{
     grid-column:1;
 }
 
-/* Title */
+/* Recipe title */
 
 header h1{
     grid-column:2;
+    margin:0;
     font-size:48px;
-    margin-bottom:10px;
 }
 
-/* Caption */
+/* Caption under title */
 
 header p{
     grid-column:2;
+    margin-top:10px;
+    font-size:16px;
 }
-
 
 /* MAIN GRID */
 
