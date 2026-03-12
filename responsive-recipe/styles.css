@@ -15,35 +15,37 @@ header{
     padding:40px;
 
     display:grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns:repeat(12, 1fr);
     gap:30px;
     align-items:center;
 }
 
 
-/* Image takes columns 1–8 */
+/* Image (LEFT SIDE) */
 
 header img{
     grid-column:1 / 9;
     width:100%;
+    height:auto;
 }
 
 
-/* Title takes columns 9–12 */
+/* Recipe Title (RIGHT SIDE) */
 
 header h1{
     grid-column:9 / 13;
-    font-size:56px;
-    margin-bottom:20px;
+    font-size:64px;
+    margin:0 0 20px 0;
+    font-weight:700;
 }
 
 
-/* Recipe info under title */
+/* Recipe Info */
 
 header p{
     grid-column:9 / 13;
-    color:#444;
     margin:6px 0;
+    color:#444;
 }
 
 
@@ -55,21 +57,21 @@ main{
     padding:40px;
 
     display:grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns:repeat(12, 1fr);
     gap:40px;
 }
 
 
-/* Ingredients columns 1–4 */
+/* INGREDIENTS (LEFT COLUMN) */
 
-main section:first-child{
+main section:first-of-type{
     grid-column:1 / 5;
 }
 
 
-/* Directions columns 5–12 */
+/* DIRECTIONS (RIGHT COLUMN) */
 
-main section:last-child{
+main section:last-of-type{
     grid-column:5 / 13;
 }
 
@@ -86,12 +88,12 @@ h2{
 
 ul{
     padding-left:20px;
-    line-height:1.6;
+    line-height:1.7;
 }
 
 ol{
     padding-left:20px;
-    line-height:1.6;
+    line-height:1.7;
 }
 
 
