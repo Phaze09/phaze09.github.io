@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  background-color: #ddd;
+  padding: 60px;
+  text-align: center;
+}
+
+/* Layout for content + sidebar */
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.content {
+  flex: 3;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
