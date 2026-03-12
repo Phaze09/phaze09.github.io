@@ -1,43 +1,36 @@
-body {
+body{
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin:0;
+  padding:40px;
+  background:#e3c9c9;
 }
 
-/* Header */
-header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
+.container{
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:20px;
 }
 
-/* Hero section */
-.hero {
-  background-color: #ddd;
-  padding: 60px;
-  text-align: center;
+/* image area */
+.image{
+  grid-column: 1 / 9;
 }
 
-/* Layout for content + sidebar */
-main {
-  display: flex;
-  padding: 20px;
+.image img{
+  width:100%;
 }
 
-.content {
-  flex: 3;
-  padding: 20px;
+/* title area */
+.title{
+  grid-column: 9 / 13;
 }
 
-.sidebar {
-  flex: 1;
-  background-color: #f4f4f4;
-  padding: 20px;
+/* ingredients */
+.ingredients{
+  grid-column: 1 / 5;
 }
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+/* directions */
+.directions{
+  grid-column: 5 / 13;
 }
