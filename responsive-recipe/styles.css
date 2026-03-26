@@ -8,24 +8,42 @@ body{
 
 /* ---------- HEADER GRID ---------- */
 
-header{
-    max-width:1200px;
-    margin:auto;
-    padding:40px;
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
 
-    display:grid;
-    grid-template-columns:repeat(12, 1fr);
-    gap:30px;
-    align-items:center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+
+    align-items: start;
 }
 
+/* LEFT: Image */
+header img {
+    grid-column: 1 / 8;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
-/* Image (LEFT SIDE) */
+/* RIGHT: Grouped content */
+.recipe-info {
+    grid-column: 8 / 13;
+}
 
-header img{
-    grid-column:1 / 9;
-    width:5%;
-    height:auto;
+/* Title */
+.recipe-info h1 {
+    font-size: 64px;
+    margin: 0 0 10px 0;
+}
+
+/* Text under title */
+.recipe-info p {
+    margin: 4px 0;
+    color: #444;
 }
 
 
