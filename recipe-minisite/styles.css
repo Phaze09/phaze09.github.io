@@ -145,6 +145,7 @@ nav>ul>li>ul>li:hover a {
         content: "";
     }
 
+}
     body {
     background-color: #dcd7d1;
     font-family: Arial, sans-serif;
@@ -213,4 +214,4 @@ h2 {
     font-size: 0.9rem;
 }
 
-}
+
