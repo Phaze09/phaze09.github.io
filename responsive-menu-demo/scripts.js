@@ -1,4 +1,3 @@
-// function to hide/show menu items 
 function clickNav(bodyClicked) {
     let navHandle = document.querySelector("nav");
     let burgerWasClicked = navHandle.classList.contains("clicked");
@@ -46,4 +45,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
-
