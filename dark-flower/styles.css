@@ -55,3 +55,21 @@ header {
     width: 45vw;
   }
 }
+
+.darkMode {
+    background-color: #121212;
+    color: white;
+}
+
+.darkMode h1 {
+    color: lightgreen;
+}
+
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
