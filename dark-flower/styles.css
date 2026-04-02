@@ -73,3 +73,11 @@ header {
     font-size: 16px;
     cursor: pointer;
 }
+
+.darkMode main {
+  background-color: #121212;
+}
+
+.darkMode section {
+  background-color: #121212;
+}
