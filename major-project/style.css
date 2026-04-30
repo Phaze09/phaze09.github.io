@@ -306,3 +306,147 @@ footer {
   line-height: 1.5;
   color: #444;
 }
+
+/* Systemic Page */
+
+.systemic-page {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.systemic-hero {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 100px 12%;
+}
+
+.systemic-hero h1 {
+  font-size: 3.3rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.systemic-hero p {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.systemic-definition {
+  padding: 80px 10%;
+  background-color: white;
+  text-align: center;
+}
+
+.systemic-definition h2,
+.systems-section h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.definition-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.definition-card {
+  border: 1px solid #222;
+  padding: 30px 20px;
+  min-height: 180px;
+}
+
+.definition-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.definition-card p {
+  line-height: 1.6;
+}
+
+.systems-section {
+  padding: 90px 10%;
+  background-color: #e7e7e7;
+  text-align: center;
+}
+
+.systems-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  text-align: left;
+}
+
+.system-card {
+  background-color: white;
+  padding: 40px;
+  border-left: 6px solid #222;
+  min-height: 280px;
+}
+
+.system-card h3 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.system-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.system-card small {
+  color: #555;
+  line-height: 1.5;
+}
+
+.dark-card {
+  background-color: #252525;
+  color: white;
+  border-left: 6px solid white;
+}
+
+.dark-card small {
+  color: #ddd;
+}
+
+.systemic-closing {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 90px 12%;
+}
+
+.systemic-closing h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.systemic-closing p {
+  max-width: 850px;
+  margin: 0 auto 35px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .systemic-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .definition-grid,
+  .systems-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .system-card {
+    padding: 30px;
+  }
+}
