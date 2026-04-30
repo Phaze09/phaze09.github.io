@@ -161,6 +161,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color: #1f1f1f;
+  color: white;
 }
 
 .page-intro h1 {
