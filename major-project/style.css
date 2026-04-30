@@ -291,3 +291,19 @@ footer {
     width: 100%;
   }
 }
+
+.history-image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%);
+}
+
+.history-image small {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
