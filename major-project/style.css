@@ -145,4 +145,150 @@ footer {
   .content-box p {
     font-size: 1.1rem;
   }
+/* History Page */
+
+.history-page {
+  background-color: #f3f3f3;
+  color: #111;
 }
+
+.page-intro {
+  min-height: 360px;
+  padding: 80px 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-intro h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.page-intro p {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.history-block {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 10%;
+  background-color: white;
+  border-top: 1px solid #ddd;
+}
+
+.history-block.reverse {
+  flex-direction: row-reverse;
+  background-color: #eaeaea;
+}
+
+.history-text {
+  flex: 1;
+}
+
+.history-text h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.history-text h2 span {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.history-text p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.history-image {
+  flex: 1;
+  min-height: 280px;
+}
+
+.placeholder {
+  background-color: #2d2d2d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.placeholder p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.placeholder small {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.history-closing {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 90px 12%;
+}
+
+.history-closing h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.history-closing p {
+  max-width: 800px;
+  margin: 0 auto 35px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.button-link {
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 25px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.button-link:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .page-intro h1 {
+    font-size: 2.2rem;
+  }
+
+  .history-block,
+  .history-block.reverse {
+    flex-direction: column;
+    padding: 60px 8%;
+    gap: 35px;
+  }
+
+  .history-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .history-image {
+    width: 100%;
+  }
+}
+
+}
+
