@@ -296,7 +296,6 @@ footer {
   width: 100%;
   height: auto;
   display: block;
-  filter: grayscale(100%);
 }
 
 .history-image small {
